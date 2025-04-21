@@ -103,3 +103,39 @@ html {
     overscroll-behavior: contain;
 }
 
+input {
+    display: block;
+    width: 100%;
+    font: inherit;
+}
+
+input::placeholder { font: inherit; }
+
+body { background:var(--white); }
+
+    /*
+    * transition
+    */
+
+    body::-webkit-scrollbar { width: 15px; }
+
+    body::-webkit-scrollbar-track {
+        background: var(--white);
+        border-left: 1px solid var(--cultured);
+    }
+
+    body ::-webkit-scrollbar-thumb {
+        background: hsl(0, 0%, 80%);
+        border: 3px solid var(--white);
+        border-radius: 10px;
+    }
+
+    body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
+
+
+
+
+
+/*--------------------*\
+#REUSED STYLE
+\*--------------------*/
