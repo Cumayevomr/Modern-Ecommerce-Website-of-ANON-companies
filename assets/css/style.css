@@ -539,7 +539,7 @@ body {
     font-size: 22px;
 }
 
-.menu-close-btn ion-icon { --ion-icon-stroke-width: 50px; }
+.menu-close-btn ion-icon { --ionicon-stroke-width: 50px; }
 
 .mobile-menu-category-list { margin-bottom: 30px; }
 
@@ -680,7 +680,7 @@ body {
     border-radius: var(--border-radius-md);
 }
 
-.banenr-subtitle {
+.banner-subtitle {
     color: var(--salmon-pink);
     font-size: var(--fs-7);
     font-weight: var(--weight-500);
@@ -790,7 +790,7 @@ body {
     background: var(--white);
     position: fixed;
     top: 0;
-    left: -100;
+    left: -100%;
     bottom: 0;
     width: 100%;
     max-width: 320px;
