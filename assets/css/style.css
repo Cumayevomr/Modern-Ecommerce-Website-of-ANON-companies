@@ -707,3 +707,5 @@ body { background:var(--white); }
     border-radius: var(--border-radius-sm);
     transition: var(--transition-timing);
 }
+
+.banner-btn:hover { background: var(--eerie-black); }
