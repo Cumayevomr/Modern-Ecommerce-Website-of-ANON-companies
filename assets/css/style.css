@@ -946,4 +946,8 @@ body {
     font-size: 13px;
 }
 
-.sidebar 
+.sidebar .price-box .price {
+    font-size: var(--fs-7);
+    font-weight: var(--weight-600);
+    color: var(--davys-gray);
+}
